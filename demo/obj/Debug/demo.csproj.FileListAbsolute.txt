@@ -1,0 +1,11 @@
+E:\Csharp\demo\demo\bin\Debug\demo.exe
+E:\Csharp\demo\demo\bin\Debug\demo.pdb
+E:\Csharp\demo\demo\bin\Debug\Guna.UI2.dll
+E:\Csharp\demo\demo\obj\Debug\demo.csprojAssemblyReference.cache
+E:\Csharp\demo\demo\obj\Debug\demo.Properties.Resources.resources
+E:\Csharp\demo\demo\obj\Debug\demo.csproj.GenerateResource.cache
+E:\Csharp\demo\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+E:\Csharp\demo\demo\obj\Debug\demo.csproj.CopyComplete
+E:\Csharp\demo\demo\obj\Debug\demo.exe
+E:\Csharp\demo\demo\obj\Debug\demo.pdb
+E:\Csharp\demo\demo\obj\Debug\demo.MainForm.resources
