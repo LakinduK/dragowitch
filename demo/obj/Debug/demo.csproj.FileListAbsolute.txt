@@ -9,3 +9,4 @@ E:\Csharp\demo\demo\obj\Debug\demo.csproj.CopyComplete
 E:\Csharp\demo\demo\obj\Debug\demo.exe
 E:\Csharp\demo\demo\obj\Debug\demo.pdb
 E:\Csharp\demo\demo\obj\Debug\demo.MainForm.resources
+E:\Csharp\demo\demo\obj\Debug\demo.Notification.resources

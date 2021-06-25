@@ -75,6 +75,7 @@ namespace demo
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.guna2ContainerControl3.SuspendLayout();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -388,7 +389,7 @@ namespace demo
             // 
             this.guna2Chip1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.guna2Chip1.AutoRoundedCorners = true;
-            this.guna2Chip1.BorderColor = System.Drawing.Color.Blue;
+            this.guna2Chip1.BorderColor = System.Drawing.Color.Crimson;
             this.guna2Chip1.BorderRadius = 14;
             this.guna2Chip1.FillColor = System.Drawing.Color.DarkOrange;
             this.guna2Chip1.Font = new System.Drawing.Font("Gilroy Light", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -764,6 +765,13 @@ namespace demo
             this.guna2TileButton1.Size = new System.Drawing.Size(30, 30);
             this.guna2TileButton1.TabIndex = 25;
             this.guna2TileButton1.UseTransparentBackground = true;
+            this.guna2TileButton1.CheckedChanged += new System.EventHandler(this.guna2TileButton1_CheckedChanged);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // MainForm
             // 
@@ -850,6 +858,7 @@ namespace demo
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

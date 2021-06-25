@@ -35,7 +35,7 @@ namespace demo
                 
         }
 
-// Notifications number function
+// Notifications count function
         private void guna2NumericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             //UiChanges UiClass = new UiChanges();
@@ -69,7 +69,7 @@ namespace demo
             }
             
         }
-
+//  Add Image to profile Picture
         private void guna2CircleButton2_Click(object sender, EventArgs e)
         {
             String imageLocation = "";
@@ -89,6 +89,22 @@ try
             {
                 MessageBox.Show("An Error Occured", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+//  Open Notification panel
+        private void guna2TileButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            Notification notifPanel = new Notification();
+            if (guna2TileButton1.Checked == true)
+            {
+                notifPanel.Show();
+                string notCount = "You have " + guna2NotificationPaint1.Text.ToString()+ " notifications in your inbox.";
+                notifyIcon1.ShowBalloonTip(1000, "Notifications", notCount,ToolTipIcon.Info); 
+            }
+            else
+            {
+                notifPanel.Hide();
+            }
+            
         }
     }
 }
